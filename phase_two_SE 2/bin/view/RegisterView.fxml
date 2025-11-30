@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox spacing="15" alignment="CENTER"
+      xmlns="http://javafx.com/javafx/11.0.1"
+      xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="Controller.RegisterController">
+
+    <!-- Title -->
+    <Label text="Library Registration" style="-fx-font-size: 24px; -fx-font-weight: bold;"/>
+    
+    <!-- Input Fields -->
+    <TextField fx:id="nameField" promptText="Enter Name" prefWidth="300"/>
+    <TextField fx:id="emailField" promptText="Enter QU Email" prefWidth="300"/>
+    
+    <!-- Register Button -->
+    <Button text="Register Member" onAction="#registerMember" prefWidth="200"/>
+    
+    <!-- Status Label -->
+    <Label fx:id="statusLabel" text="Status: ---" style="-fx-text-fill: green;"/>
+     <Button text="Go to Reserve" onAction="#handleGoToReserve"/>
+    <!-- Padding -->
+    <padding>
+        <Insets top="20" bottom="20" left="20" right="20"/>
+    </padding>
+</VBox>

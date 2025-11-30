@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox spacing="15" alignment="CENTER"
+      xmlns="http://javafx.com/javafx/11.0.1"
+      xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="Controller.ReservationController">
+
+    <!-- Title -->
+    <Label text="Item Reservation" style="-fx-font-size: 24px; -fx-font-weight: bold;"/>
+    
+    <!-- Input Fields -->
+    <TextField fx:id="memberIdField" promptText="Enter Member ID" prefWidth="300"/>
+    <TextField fx:id="itemCallField" promptText="Enter Item Call Number" prefWidth="300"/>
+    
+    <!-- Reserve Button -->
+    <Button text="Reserve Item" onAction="#reserveItem" prefWidth="200"/>
+    
+    <!-- Result Label -->
+    <Label fx:id="resultLabel" text="Result: ---" style="-fx-text-fill: green;"/>
+    
+    <!-- Padding -->
+    <padding>
+        <Insets top="20" bottom="20" left="20" right="20"/>
+    </padding>
+</VBox>
