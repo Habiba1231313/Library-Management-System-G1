@@ -1,6 +1,6 @@
 
 # Library Management System – G1  
-CMPS 310 – Software Engineering  
+CMPS 310 – Software Engineering  B51
 Qatar University
 
 This repository contains the implementation for the Library Management System developed by Team G1 as part of Phase 2 of the Software Engineering course.
@@ -17,5 +17,6 @@ This repository contains the implementation for the Library Management System de
 - Ashely 
 - Asmaa
 
+
 ## How to Run
-Import the project into Eclipse or IntelliJ with JavaFX SDK configured.
+import the project into Eclipse or IntelliJ with JavaFX SDK configured.
